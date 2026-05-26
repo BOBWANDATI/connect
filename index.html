@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>PeaceConnect Ke</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+
+    <nav>
+
+      <h1>PeaceConnect Ke</h1>
+
+      <ul>
+
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#report">Report</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#forum">Forum</a></li>
+        <li><a href="#support">Support</a></li>
+
+      </ul>
+       
+      <button id="darkModeBtn">Darkmode🌙</button>
+
+    </nav>
+
+  </header>
+
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+
+    <div class="hero-content">
+
+      <h2>Building Peace Through Technology</h2>
+
+      <p>
+        Together we can prevent conflict,
+        promote unity and create stronger communities.
+      </p>
+
+      <a href="#report" class="btn">
+        Report Conflict
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- STATS -->
+  <section class="stats">
+
+    <div class="stat-card">
+      <h3 id="users">0</h3>
+      <p>Users Reached</p>
+    </div>
+
+    <div class="stat-card">
+      <h3 id="reports">0</h3>
+      <p>Reports Submitted</p>
+    </div>
+
+    <div class="stat-card">
+      <h3 id="peace">0</h3>
+      <p>Peace Campaigns</p>
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+<section class="section" id="about">
+
+  <h2>About Us</h2>
+
+  <p>
+    PeaceConnect Ke is a peacebuilding
+    and conflict resolution platform
+    that empowers communities to report
+    conflicts and promote social cohesion.
+  </p>
+
+</section>
+
+
+<!-- MISSION -->
+<section class="section mission-section">
+
+  <div class="mission-card">
+
+    <i class="fa-solid fa-bullseye"></i>
+
+    <h2>Our Mission</h2>
+
+    <p>
+      Our mission is to empower communities
+      through peace education, conflict
+      prevention, dialogue and peaceful
+      problem solving using technology
+      and community participation.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- VISION -->
+<section class="section vision-section">
+
+  <div class="vision-card">
+
+    <i class="fa-solid fa-eye"></i>
+
+    <h2>Our Vision</h2>
+
+    <p>
+      Our vision is to create a peaceful,
+      united and violence-free society
+      where people live together with
+      harmony, equality and mutual respect.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- IMPORTANCE OF CONFLICT PREVENTION -->
+<section class="section importance-section">
+
+  <h2>Importance of Conflict Prevention</h2>
+
+  <div class="importance-container">
+
+    <div class="importance-card">
+
+      <i class="fa-solid fa-shield-heart"></i>
+
+      <h3>Protects Communities</h3>
+
+      <p>
+        Conflict prevention helps protect
+        people, families and communities
+        from violence and destruction.
+      </p>
+
+    </div>
+
+    <div class="importance-card">
+
+      <i class="fa-solid fa-people-group"></i>
+
+      <h3>Promotes Unity</h3>
+
+      <p>
+        Encourages peaceful coexistence,
+        cooperation and understanding
+        among different communities.
+      </p>
+
+    </div>
+
+    <div class="importance-card">
+
+      <i class="fa-solid fa-graduation-cap"></i>
+
+      <h3>Supports Development</h3>
+
+      <p>
+        Peaceful communities create better
+        opportunities for education,
+        business and social growth.
+      </p>
+
+    </div>
+
+    <div class="importance-card">
+
+      <i class="fa-solid fa-handshake-angle"></i>
+
+      <h3>Encourages Dialogue</h3>
+
+      <p>
+        Conflict prevention promotes
+        communication, mediation and
+        peaceful problem solving.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CORE VALUES -->
+<section class="section values-section">
+
+  <h2>Core Values</h2>
+
+  <div class="values-container">
+
+    <div class="value-card">
+
+      <i class="fa-solid fa-dove"></i>
+
+      <h3>Peace</h3>
+
+      <p>
+        Promoting peaceful coexistence
+        within communities.
+      </p>
+
+    </div>
+
+    <div class="value-card">
+
+      <i class="fa-solid fa-handshake"></i>
+
+      <h3>Unity</h3>
+
+      <p>
+        Bringing people together through
+        dialogue and understanding.
+      </p>
+
+    </div>
+
+    <div class="value-card">
+
+      <i class="fa-solid fa-scale-balanced"></i>
+
+      <h3>Justice</h3>
+
+      <p>
+        Encouraging fairness, equality
+        and respect for human rights.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+  <!-- REPORT -->
+<section class="section" id="report">
+
+  <h2>Conflict Reporting System</h2>
+
+  <form id="reportForm">
+
+    <!-- Anonymous Reporting -->
+    <label class="checkbox-label">
+
+      <input type="checkbox" id="anonymousCheck">
+
+      Report Anonymously
+
+    </label>
+
+
+    <!-- Name -->
+    <input type="text"
+      id="name"
+      placeholder="Your Name"
+      required />
+
+
+    <!-- Category -->
+    <select id="category" required>
+
+      <option value="">
+        Select Conflict Category
+      </option>
+
+      <option>Hate Speech</option>
+      <option>Violence Threat</option>
+      <option>Cyberbullying</option>
+      <option>Misinformation</option>
+      <option>Community Conflict</option>
+      <option>Political Violence</option>
+      <option>Domestic Violence</option>
+
+    </select>
+
+
+    <!-- Location -->
+    <input type="text"
+      id="location"
+      placeholder="County / Town / Location"
+      required />
+
+
+    <!-- Emergency Contact -->
+    <input type="tel"
+      id="emergencyContact"
+      placeholder="Emergency Contact Number"
+      required />
+
+
+    <!-- Message -->
+    <textarea id="message"
+      rows="6"
+      placeholder="Describe the issue"
+      required></textarea>
+
+
+    <!-- Submit -->
+    <button type="submit">
+
+      Submit Report
+
+    </button>
+
+  </form>
+
+  <!-- Success Message -->
+  <div id="reportMessage"></div>
+
+</section>
+
+
+  <!-- EDUCATION -->
+<section class="section education-section" id="education">
+
+  <h2>Peace Education Hub</h2>
+
+  <!-- SEARCH -->
+  <input type="text"
+    id="searchInput"
+    placeholder="Search articles, videos or lessons..." />
+
+
+  <!-- CATEGORY FILTER -->
+  <div class="filter-buttons">
+
+    <button class="filter-btn"
+      data-category="all">
+      All
+    </button>
+
+    <button class="filter-btn"
+      data-category="conflict">
+      Conflict Resolution
+    </button>
+
+    <button class="filter-btn"
+      data-category="peace">
+      Peacebuilding Videos
+    </button>
+
+    <button class="filter-btn"
+      data-category="youth">
+      Youth Empowerment
+    </button>
+
+    <button class="filter-btn"
+      data-category="radicalization">
+      Anti-Radicalization
+    </button>
+
+    <button class="filter-btn"
+      data-category="digital">
+      Digital Literacy
+    </button>
+
+  </div>
+
+
+ <!-- EDUCATION CONTENT -->
+<div class="articles" id="articlesContainer">
+
+  <!-- CONFLICT -->
+  <div class="article-card"
+    data-category="conflict">
+
+    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200&auto=format&fit=crop"
+      alt="Conflict Resolution">
+
+    <h3>Conflict Resolution</h3>
+
+    <p>
+      Learn peaceful ways of solving
+      disputes in communities.
+    </p>
+
+    <div class="card-buttons">
+
+      <button class="like-btn">
+        👍 Like
+      </button>
+
+      <div class="share-container">
+
+  <button class="share-btn">
+    🔗 Share
+  </button>
+
+  <div class="share-options">
+
+    <a href="#" class="whatsapp-share">
+      WhatsApp
+    </a>
+
+    <a href="#" class="facebook-share">
+      Facebook
+    </a>
+
+    <a href="#" class="twitter-share">
+      Twitter/X
+    </a>
+
+    <a href="#" class="telegram-share">
+      Telegram
+    </a>
+
+    <button class="copy-link">
+      Copy Link
+    </button>
+
+  </div>
+
+</div>
+
+    </div>
+
+  </div>
+
+
+  <!-- PEACEBUILDING VIDEO -->
+  <div class="article-card"
+    data-category="peace">
+
+    <iframe width="100%"
+      height="220"
+      src="https://www.youtube.com/embed/6z0Qw1L2m7Q"
+      title="Peacebuilding Video"
+      allowfullscreen>
+    </iframe>
+
+    <h3>Peacebuilding Education</h3>
+
+    <p>
+      Watch educational videos on
+      building peaceful communities.
+    </p>
+
+    <div class="card-buttons">
+
+      <button class="like-btn">
+        👍 Like
+      </button>
+
+      <div class="share-container">
+
+  <button class="share-btn">
+    🔗 Share
+  </button>
+
+  <div class="share-options">
+
+    <a href="#" class="whatsapp-share">
+      WhatsApp
+    </a>
+
+    <a href="#" class="facebook-share">
+      Facebook
+    </a>
+
+    <a href="#" class="twitter-share">
+      Twitter/X
+    </a>
+
+    <a href="#" class="telegram-share">
+      Telegram
+    </a>
+
+    <button class="copy-link">
+      Copy Link
+    </button>
+
+  </div>
+
+</div>
+
+    </div>
+
+  </div>
+
+
+  <!-- YOUTH -->
+  <div class="article-card"
+    data-category="youth">
+
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"
+      alt="Youth Empowerment">
+
+    <h3>Youth Empowerment Tips</h3>
+
+    <p>
+      Empowering youth to become
+      peace ambassadors and leaders.
+    </p>
+
+    <div class="card-buttons">
+
+      <button class="like-btn">
+        👍 Like
+      </button>
+
+      <div class="share-container">
+
+  <button class="share-btn">
+    🔗 Share
+  </button>
+
+  <div class="share-options">
+
+    <a href="#" class="whatsapp-share">
+      WhatsApp
+    </a>
+
+    <a href="#" class="facebook-share">
+      Facebook
+    </a>
+
+    <a href="#" class="twitter-share">
+      Twitter/X
+    </a>
+
+    <a href="#" class="telegram-share">
+      Telegram
+    </a>
+
+    <button class="copy-link">
+      Copy Link
+    </button>
+
+  </div>
+
+</div>
+
+    </div>
+
+  </div>
+
+
+  <!-- ANTI RADICALIZATION -->
+  <div class="article-card"
+    data-category="radicalization">
+
+    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1200&auto=format&fit=crop"
+      alt="Anti Radicalization">
+
+    <h3>Anti-Radicalization Education</h3>
+
+    <p>
+      Learn how communities can
+      prevent extremism and violence.
+    </p>
+
+    <div class="card-buttons">
+
+      <button class="like-btn">
+        👍 Like
+      </button>
+
+      <div class="share-container">
+
+  <button class="share-btn">
+    🔗 Share
+  </button>
+
+  <div class="share-options">
+
+    <a href="#" class="whatsapp-share">
+      WhatsApp
+    </a>
+
+    <a href="#" class="facebook-share">
+      Facebook
+    </a>
+
+    <a href="#" class="twitter-share">
+      Twitter/X
+    </a>
+
+    <a href="#" class="telegram-share">
+      Telegram
+    </a>
+
+    <button class="copy-link">
+      Copy Link
+    </button>
+
+  </div>
+
+</div>
+
+    </div>
+
+  </div>
+
+
+  <!-- DIGITAL -->
+  <div class="article-card"
+    data-category="digital">
+
+    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+      alt="Digital Literacy">
+
+    <h3>Digital Literacy Lessons</h3>
+
+    <p>
+      Learn how to identify fake news,
+      misinformation and online threats.
+    </p>
+
+    <div class="card-buttons">
+
+      <button class="like-btn">
+        👍 Like
+      </button>
+
+      <div class="share-container">
+
+  <button class="share-btn">
+    🔗 Share
+  </button>
+
+  <div class="share-options">
+
+    <a href="#" class="whatsapp-share">
+      WhatsApp
+    </a>
+
+    <a href="#" class="facebook-share">
+      Facebook
+    </a>
+
+    <a href="#" class="twitter-share">
+      Twitter/X
+    </a>
+
+    <a href="#" class="telegram-share">
+      Telegram
+    </a>
+
+    <button class="copy-link">
+      Copy Link
+    </button>
+
+  </div>
+
+</div>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- FORUM -->
+<section class="section forum-section" id="forum">
+
+  <h2>Community Dialogue Forum</h2>
+
+  <p class="forum-intro">
+    This forum promotes respectful discussions,
+    peaceful dialogue and community engagement.
+  </p>
+
+  <!-- COMMUNITY RULES -->
+  <div class="forum-rules">
+
+    <h3>Forum Rules</h3>
+
+    <ul>
+      <li>✔ Respect all community members</li>
+      <li>✔ No hate speech or discrimination</li>
+      <li>✔ Avoid abusive language</li>
+      <li>✔ Promote peaceful dialogue</li>
+      <li>✔ No violence or harmful threats</li>
+    </ul>
+
+  </div>
+
+  <!-- COMMUNITY TOPICS -->
+  <div class="community-topics">
+
+    <h3>Community Topics</h3>
+
+    <div class="topics-buttons">
+
+      <button class="topic-btn"
+        data-topic="peacebuilding">
+        Peacebuilding
+      </button>
+
+      <button class="topic-btn"
+        data-topic="youth">
+        Youth Empowerment
+      </button>
+
+      <button class="topic-btn"
+        data-topic="conflict">
+        Conflict Resolution
+      </button>
+
+      <button class="topic-btn"
+        data-topic="digital">
+        Digital Safety
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- TOPIC DETAILS -->
+  <div id="topicDetails"
+    class="topic-details">
+
+    <h3>Select a Topic</h3>
+
+    <p>
+      Click any topic above to learn more.
+    </p>
+
+  </div>
+
+  <!-- COMMENT FORM -->
+  <form id="forumForm">
+
+    <input type="text"
+      id="forumName"
+      placeholder="Your Name"
+      required />
+
+    <textarea id="forumComment"
+      rows="5"
+      placeholder="Write respectful comment..."
+      required></textarea>
+
+    <button type="submit">
+      Post Comment
+    </button>
+
+  </form>
+
+  <!-- ALERT MESSAGE -->
+  <div id="forumMessage"></div>
+
+  <!-- COMMENTS -->
+  <div id="commentsSection"></div>
+
+</section>
+
+
+<!-- ========================== -->
+<!-- EMERGENCY HELP & SUPPORT -->
+<!-- ========================== -->
+
+<section class="section emergency-support" id="support">
+
+  <h2>🆘 Emergency Help & Support</h2>
+
+  <div class="support-container">
+
+    <!-- Counseling -->
+    <div class="support-card">
+
+      <h3>💙 Counseling & Mental Health Support</h3>
+
+      <p>
+        If you are experiencing emotional distress,
+        anxiety, trauma, or conflict-related stress,
+        please contact:
+      </p>
+
+      <ul>
+
+        <li>
+          Befrienders Kenya:
+          <a href="https://www.befrienderskenya.org"
+             target="_blank">
+             www.befrienderskenya.org
+          </a>
+        </li>
+
+        <li>
+          Mental Health Helpline:
+          <strong>1199</strong>
+        </li>
+
+        <li>
+          Emergency Counseling:
+          <strong>+254 722 178 177</strong>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <!-- Emergency -->
+    <div class="support-card">
+
+      <h3>📞 Emergency Helplines</h3>
+
+      <ul>
+
+        <li>
+          Police Emergency:
+          <strong>999</strong>
+        </li>
+
+        <li>
+          National Emergency Response:
+          <strong>112</strong>
+        </li>
+
+        <li>
+          Gender Violence Recovery Centre:
+          <strong>1195</strong>
+        </li>
+
+        <li>
+          Child Helpline Kenya:
+          <strong>116</strong>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <!-- Organizations -->
+    <div class="support-card">
+
+      <h3>🕊️ Peace Organizations</h3>
+
+      <ul>
+
+        <li>
+          <a href="https://www.cohesion.or.ke/"
+             target="_blank">
+             National Cohesion and Integration Commission
+          </a>
+        </li>
+
+        <li>
+          <a href="https://peacenetkenya.or.ke/"
+             target="_blank">
+             PeaceNet Kenya
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <!-- Legal -->
+    <div class="support-card">
+
+      <h3>⚖️ Legal Support Resources</h3>
+
+      <ul>
+
+        <li>
+          <a href="https://www.knchr.org"
+             target="_blank">
+             Kenya National Commission on Human Rights
+          </a>
+        </li>
+
+        <li>
+          <a href="https://kituochasheria.or.ke/"
+             target="_blank">
+             Kituo Cha Sheria Legal Aid
+          </a>
+        </li>
+
+        <li>
+          <a href="https://fidakenya.org/"
+             target="_blank">
+             FIDA Kenya
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- TESTIMONIAL STORIES -->
+<section class="section testimonial-section" id="testimonials">
+
+  <h2>Testimonial Stories</h2>
+
+  <p class="testimonial-intro">
+    Community members can share their peacebuilding,
+    reconciliation and transformation stories.
+  </p>
+
+  <!-- FORM -->
+  <form id="testimonialForm" class="testimonial-form">
+
+    <input type="text"
+      id="testimonialName"
+      placeholder="Your Name"
+      required />
+
+    <input type="text"
+      id="testimonialTitle"
+      placeholder="Story Title"
+      required />
+
+    <textarea id="testimonialMessage"
+      rows="6"
+      placeholder="Share your story..."
+      required></textarea>
+
+    <input type="text"
+      id="testimonialImage"
+      placeholder="Paste Image URL (optional)" />
+
+    <button type="submit">
+      Share Story
+    </button>
+
+  </form>
+
+  <div id="testimonialMessageBox"></div>
+
+  <div class="testimonial-container"
+    id="testimonialContainer">
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+  <div class="footer-content">
+
+    <h3>PeaceConnect Ke</h3>
+
+    <p>
+      Building Peace Together Through
+      Technology, Unity and Dialogue.
+    </p>
+
+    <!-- SOCIAL LINKS -->
+    <div class="social-links">
+
+      <a href="https://www.facebook.com/"
+         target="_blank"
+         class="social-icon">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <a href="https://twitter.com/"
+         target="_blank"
+         class="social-icon">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+
+      <a href="https://www.instagram.com/"
+         target="_blank"
+         class="social-icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="https://wa.me/254700000000"
+         target="_blank"
+         class="social-icon">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+      <a href="https://www.youtube.com/"
+         target="_blank"
+         class="social-icon">
+        <i class="fab fa-youtube"></i>
+      </a>
+
+      <a href="https://t.me/"
+         target="_blank"
+         class="social-icon">
+        <i class="fab fa-telegram"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/"
+         target="_blank"
+         class="social-icon">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+
+    </div>
+
+    <p class="footer-copy">
+      © 2026 PeaceConnect Ke |
+      All Rights Reserved
+    </p>
+
+  </div>
+
+</footer>
+
+<!-- LIVE INFO -->
+<div class="live-info" id="liveInfo">
+  Loading location...
+</div>
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+
+</body>
+</html>
